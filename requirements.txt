@@ -1,0 +1,35 @@
+# --- FastAPI & API Server ---
+fastapi
+uvicorn
+
+# --- Document Processing ---
+PyPDF2
+python-docx
+docx2txt
+olefile
+zipfile36
+
+# --- File Discovery, Hashing ---
+fsspec
+
+# --- LangChain Agent Framework ---
+langchain>=0.1.16
+openai
+tiktoken
+
+# --- Embeddings & Vectorstores ---
+faiss-cpu
+sentence-transformers
+chromadb  # optional if using Chroma instead of FAISS
+
+# --- Text Processing ---
+spacy
+numpy
+
+# --- Background Tasks with Redis Queue ---
+redis
+rq
+
+# --- Environment Variables, Validation ---
+python-dotenv
+pydantic
